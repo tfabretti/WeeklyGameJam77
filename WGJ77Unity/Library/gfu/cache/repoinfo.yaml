@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2018-12-28T22:11:29.998+01:00
-  initializedAtString: 2018-12-28T22:11:29.998+01:00
+  lastUpdatedAtString: 2018-12-28T22:20:15.523+01:00
+  initializedAtString: 2018-12-28T22:18:55.163+01:00
   currentGitRemote:
     name: origin
     url: https://github.com/tfabretti/WeeklyGameJam77.git
