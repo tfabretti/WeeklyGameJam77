@@ -76,8 +76,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_speed: 6
-<<<<<<< HEAD
-=======
   m_animationIdle: Idle
   m_animationMove: Running
 --- !u!1 &8768991189097120929
@@ -234,4 +232,3 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9016825739425535688}
   m_Mesh: {fileID: 0}
->>>>>>> 142adb9dada3f678528a31fa3d5baef9749c75e9
