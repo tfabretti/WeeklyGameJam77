@@ -1164,6 +1164,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_speed: 6
+  m_animationIdle: Idle
+  m_animationMove: Running
 --- !u!1 &8768991189097120929
 GameObject:
   m_ObjectHideFlags: 0
