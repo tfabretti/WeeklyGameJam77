@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1260974771364262654}
   - component: {fileID: 422105986956210585}
   - component: {fileID: 5514742533926991088}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Ecorche_Neck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88,7 +88,7 @@ GameObject:
   - component: {fileID: 3635674291629355577}
   - component: {fileID: 4885708950560118359}
   - component: {fileID: 4387606780809073409}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Ecorche_Eyeballs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -165,7 +165,7 @@ GameObject:
   - component: {fileID: 1072267797286196217}
   - component: {fileID: 590396527223373357}
   - component: {fileID: 8398865351248534714}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Ecorche_Chest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -242,7 +242,7 @@ GameObject:
   - component: {fileID: 7543700007573843028}
   - component: {fileID: 1028383427265150569}
   - component: {fileID: 2849869420670383050}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Ecorche_Bowels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -319,7 +319,7 @@ GameObject:
   - component: {fileID: 73580215816539615}
   - component: {fileID: 5733309264390961233}
   - component: {fileID: 7030983299110299863}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Ecorche_Eyes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -396,7 +396,7 @@ GameObject:
   - component: {fileID: 7952104525554475725}
   - component: {fileID: 2325002149385528477}
   - component: {fileID: 4767678690790360320}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Ecorche_Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -473,7 +473,7 @@ GameObject:
   - component: {fileID: 7627485780868702442}
   - component: {fileID: 6970265268266512638}
   - component: {fileID: 7064497777458797847}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Ecorche_L_Leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -550,7 +550,7 @@ GameObject:
   - component: {fileID: 2583524854651037782}
   - component: {fileID: 4217678377694596933}
   - component: {fileID: 1209566501873989764}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Ecorche_L_Forearm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -627,7 +627,7 @@ GameObject:
   - component: {fileID: 861605968994280491}
   - component: {fileID: 7311874783787998137}
   - component: {fileID: 1934281857335525268}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Ecorche_Mouth
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -704,7 +704,7 @@ GameObject:
   - component: {fileID: 7981702857638695671}
   - component: {fileID: 5428574057367426849}
   - component: {fileID: 3307102835535646240}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Ecorche_Eyeballs_Deter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -781,7 +781,7 @@ GameObject:
   - component: {fileID: 3527756935826903280}
   - component: {fileID: 3927461792427125797}
   - component: {fileID: 6737817070366937425}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -867,7 +867,7 @@ GameObject:
   - component: {fileID: 7471322342284087202}
   - component: {fileID: 335287255829700871}
   - component: {fileID: 649165323799574449}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Ecorche_R_Leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -944,7 +944,7 @@ GameObject:
   - component: {fileID: 4699986067002034646}
   - component: {fileID: 3063712489579136567}
   - component: {fileID: 7448001536997693291}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Ecorche_L_Arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1021,7 +1021,7 @@ GameObject:
   - component: {fileID: 6550237046936188347}
   - component: {fileID: 3022206842121865458}
   - component: {fileID: 3208758496003532063}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Ecorche_R_Arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1099,7 +1099,7 @@ GameObject:
   - component: {fileID: 1698651719065528589}
   - component: {fileID: 2229899024151546240}
   - component: {fileID: 8456008683808593633}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1177,7 +1177,7 @@ GameObject:
   - component: {fileID: 7568129069660679201}
   - component: {fileID: 4661818018701776922}
   - component: {fileID: 3946029458853638591}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Ecorche_Mouth2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1254,7 +1254,7 @@ GameObject:
   - component: {fileID: 1193660673977263381}
   - component: {fileID: 1109346952326067424}
   - component: {fileID: 7488112247192220559}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Ecorche_R_Forearm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
