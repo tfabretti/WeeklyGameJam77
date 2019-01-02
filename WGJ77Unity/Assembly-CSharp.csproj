@@ -120,6 +120,7 @@
     <Compile Include="Assets\DragonBones\Scripts\unity\UnityTextureData.cs" />
     <Compile Include="Assets\DragonBones\Scripts\unity\UnityUGUIDisplay.cs" />
     <Compile Include="Assets\Scripts\Camera\CameraControler.cs" />
+    <Compile Include="Assets\Scripts\ProjectUtilityScripts\CollapseComponents.cs" />
     <Compile Include="Assets\Scripts\StartMenu\LoadSceneOnClick.cs" />
     <None Include="Assets\DragonBones\Resources\Shaders\DB_BlendMode_Grab.shader" />
     <None Include="Assets\DragonBones\Resources\Shaders\DB_BlendMode_UIFramebuffer.shader" />
