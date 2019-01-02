@@ -50,9 +50,9 @@ public class PlayerMovements : MonoBehaviour
 
     void Turn( float h, float v )
     {
-        if ( h <= 0 )
+        if ( h < 0 )
             m_animator.armature.flipX = false;
-        else
+        else if ( h > 0 )
             m_animator.armature.flipX = true;
     }
 

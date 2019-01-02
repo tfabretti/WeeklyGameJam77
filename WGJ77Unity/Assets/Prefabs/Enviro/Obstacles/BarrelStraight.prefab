@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 4231708866132198551}
   - component: {fileID: 871224684665239527}
   - component: {fileID: 8301115257984980053}
+  - component: {fileID: 4088334641719911930}
   m_Layer: 0
-  m_Name: Barrel01
+  m_Name: BarrelStraight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6195537150037927694}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.513123, y: 1.83, z: -5.3799286}
+  m_LocalPosition: {x: 0, y: 0, z: -5.309929}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -91,5 +92,21 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.27, y: 3.49, z: 1.83}
-  m_Center: {x: 0, y: 0, z: 0.82}
+  m_Size: {x: 2.27, y: 3.6, z: 1.83}
+  m_Center: {x: 0, y: 1.7, z: 0.82}
+--- !u!114 &4088334641719911930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6195537150037927694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35e95dc5ff2b64380880dd7ac5922847, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Size: {x: 2.27, y: 3.6, z: 1.83}
+  m_Center: {x: 0, y: 1.7, z: 0.82}
+  m_Area: 1
+  m_AffectedAgents: ffffffff
