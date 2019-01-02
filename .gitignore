@@ -18,7 +18,7 @@ Assets/AssetStoreTools*
 [Ee]xported[Oo]bj/
 .vs/
 *.userprefs
-*.csproj
+*.csproj*
 *.pidb
 *.pidb.meta
 *.suo
