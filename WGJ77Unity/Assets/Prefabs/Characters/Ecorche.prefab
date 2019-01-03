@@ -857,8 +857,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f825bb5ce93d6ab429dfa508444119b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   unityData: {fileID: 11400000, guid: 439b5fce848ec0644957135742fa0751, type: 2}
   armatureName: Ecorche
   isUGUI: 0
@@ -866,7 +866,7 @@ MonoBehaviour:
   bonesRoot: {fileID: 0}
   unityBones: []
   boneHierarchy: 0
-  animationName: 
+  animationName:
   _playTimes: 0
   _timeScale: 1
   _sortingMode: 1
@@ -1216,8 +1216,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0bc5b18a0785ac54cbc6acbb9fc0a6b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_animationIdle: Idle
   m_animationMove: Running
   m_navMeshAgent: {fileID: 0}
@@ -1231,8 +1231,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5a431a445fdd3bd4797843f67df52021, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_currentState: {fileID: 11400000, guid: 584bcc37cd1928b468dd2bb1ebecc332, type: 2}
   m_remainState: {fileID: 11400000, guid: 5e9e7668546abd941ad6feca24a2b004, type: 2}
   m_agentEyesTransform: {fileID: 7229964836794986040}
