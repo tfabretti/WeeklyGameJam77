@@ -5,30 +5,13 @@ using UnityEngine.AI;
 
 public class StateController : AI_StateController
 {
-	public EnemyStats m_gameEnemyStats;
+    public EnemyStats m_gameEnemyStats;
 
-	[HideInInspector] public NavMeshAgent navMeshAgent;
-	[HideInInspector] public List<Transform> wayPointList;
-    [HideInInspector] public int nextWayPoint;
+    [HideInInspector] public Transform m_chaseTarget;
+    [HideInInspector] public Transform m_fleeTarget;
 
-    private bool aiActive;
-
-	void Awake () 
-	{
+    void Awake()
+    {
         m_enemyStats = m_gameEnemyStats;
-		navMeshAgent = GetComponent<NavMeshAgent> ();
-	}
-
-	public void SetupAI(bool aiActivationFromTankManager, List<Transform> wayPointsFromTankManager)
-	{
-		wayPointList = wayPointsFromTankManager;
-		aiActive = aiActivationFromTankManager;
-		if (aiActive) 
-		{
-			navMeshAgent.enabled = true;
-		} else 
-		{
-			navMeshAgent.enabled = false;
-		}
-	}
+    }
 }

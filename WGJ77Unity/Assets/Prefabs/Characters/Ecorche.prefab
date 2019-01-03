@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &370592025772831257
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7229964836794986040}
+  m_Layer: 10
+  m_Name: AI_Eyes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7229964836794986040
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 370592025772831257}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2962366540023707647}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1217677300083310031
 GameObject:
   m_ObjectHideFlags: 0
@@ -827,8 +857,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f825bb5ce93d6ab429dfa508444119b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   unityData: {fileID: 11400000, guid: 439b5fce848ec0644957135742fa0751, type: 2}
   armatureName: Ecorche
   isUGUI: 0
@@ -836,7 +866,7 @@ MonoBehaviour:
   bonesRoot: {fileID: 0}
   unityBones: []
   boneHierarchy: 0
-  animationName: 
+  animationName:
   _playTimes: 0
   _timeScale: 1
   _sortingMode: 1
@@ -1098,6 +1128,9 @@ GameObject:
   - component: {fileID: 2962366540023707647}
   - component: {fileID: 1698651719065528589}
   - component: {fileID: 2229899024151546240}
+  - component: {fileID: 6351584135850689368}
+  - component: {fileID: 2260242239552004791}
+  - component: {fileID: 4303628052965898534}
   m_Layer: 10
   m_Name: Ecorche
   m_TagString: Untagged
@@ -1117,6 +1150,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3527756935826903280}
+  - {fileID: 7229964836794986040}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1130,7 +1164,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 1
+  m_Radius: 0.9
   m_Height: 4.5
   m_Direction: 1
   m_Center: {x: 0, y: 2, z: 0}
@@ -1143,13 +1177,69 @@ Rigidbody:
   m_GameObject: {fileID: 8143677258843630015}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: Infinity
+  m_AngularDrag: Infinity
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
+--- !u!195 &6351584135850689368
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8143677258843630015}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 100
+  avoidancePriority: 50
+  m_AngularSpeed: 0
+  m_StoppingDistance: 2
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &2260242239552004791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8143677258843630015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bc5b18a0785ac54cbc6acbb9fc0a6b5, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_animationIdle: Idle
+  m_animationMove: Running
+  m_navMeshAgent: {fileID: 0}
+--- !u!114 &4303628052965898534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8143677258843630015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a431a445fdd3bd4797843f67df52021, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_currentState: {fileID: 11400000, guid: 584bcc37cd1928b468dd2bb1ebecc332, type: 2}
+  m_remainState: {fileID: 11400000, guid: 5e9e7668546abd941ad6feca24a2b004, type: 2}
+  m_agentEyesTransform: {fileID: 7229964836794986040}
+  m_stateTimeElapsed: 0
+  m_gameEnemyStats: {fileID: 11400000, guid: 7443811200396104fbf725aa99053fb0, type: 2}
+  m_chaseTarget: {fileID: 0}
+  m_navMeshAgent: {fileID: 0}
 --- !u!1 &8923346331023247589
 GameObject:
   m_ObjectHideFlags: 0
