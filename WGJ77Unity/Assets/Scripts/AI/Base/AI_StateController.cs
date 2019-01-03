@@ -15,6 +15,13 @@ public class AI_StateController : MonoBehaviour {
     protected bool m_isAIActive = false;
 
     [HideInInspector] public float m_stateTimeElapsed;
+    [HideInInspector] public NavMeshAgent m_navMeshAgent;
+
+    void Awake()
+    {
+        m_navMeshAgent = GetComponent<NavMeshAgent>();
+        m_isAIActive = true;
+    }
 
     void Update()
     {
@@ -26,11 +33,18 @@ public class AI_StateController : MonoBehaviour {
 
     void OnDrawGizmos()
     {
-        if ( m_currentState != null && m_agentEyesTransform != null )
+        if ( m_currentState != null && m_agentEyesTransform != null && m_enemyStats != null )
         {
             Gizmos.color = m_currentState.m_sceneGizmoColor;
-            Gizmos.DrawWireSphere( m_agentEyesTransform.position, m_enemyStats.lookSphereCastRadius );
+            Gizmos.DrawWireSphere( m_agentEyesTransform.position, m_enemyStats.m_visionDetectionSphereCastRadius );
         }
+    }
+
+    public void SetupAI( bool p_IsAIActive )
+    {
+        m_isAIActive = p_IsAIActive;
+        if ( m_navMeshAgent )
+            m_navMeshAgent.enabled = m_isAIActive;
     }
 
     public void TransitionToState( AI_State nextState )

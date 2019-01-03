@@ -9,11 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f10f886c6bc5d3244868e0a71570a6d5, type: 3}
-  m_Name: EcorcheStats
+  m_Script: {fileID: 11500000, guid: bf21e9424c25f1544acfd97ec4b2c963, type: 3}
+  m_Name: Teams
   m_EditorClassIdentifier: 
-  m_moveSpeed: 5
-  m_visionDetectionRange: 0
-  m_visionDetectionSphereCastRadius: 10
-  m_attackRange: 2.5
-  m_attackRate: 1
+  m_TeamsArray:
+  - Player
+  - Healthies
+  - Zombies
+  m_teamMask: 3
