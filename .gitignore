@@ -19,10 +19,12 @@ Assets/AssetStoreTools*
 .vs/
 *.userprefs
 *.csproj*
+*.csproj
 *.pidb
 *.pidb.meta
 *.suo
 *.sln*
+*.sln
 *.user
 *.unityproj
 *.booproj

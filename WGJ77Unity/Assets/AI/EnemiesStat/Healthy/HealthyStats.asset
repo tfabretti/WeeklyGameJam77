@@ -12,8 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f10f886c6bc5d3244868e0a71570a6d5, type: 3}
   m_Name: HealthyStats
   m_EditorClassIdentifier: 
-  m_moveSpeed: 5
-  m_visionDetectionRange: 0
-  m_visionDetectionSphereCastRadius: 10
+  m_teams:
+    m_teamsDefinition: {fileID: 11400000, guid: be83109dadbb50f4e8e7db7ec7290b7f,
+      type: 2}
+    m_teamMask: 2
+  m_moveSpeed: 4
+  m_vision:
+    m_angle: 360
+    m_direction: 0
+    m_range: 20
+    m_sphereCastRadius: 0
   m_attackRange: 2.5
   m_attackRate: 1
+  m_hiddenTargetAcquisitionRange: 100
+  m_hiddenTargetDirectionAngleError: 45
+  m_hiddenTargetReadjustmentDelay: 1.5
+  m_fleeParam:
+    m_fleeAngle: 0

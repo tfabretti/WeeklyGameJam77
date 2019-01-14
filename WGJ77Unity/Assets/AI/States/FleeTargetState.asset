@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df0d930898290564a910bc8006722737, type: 3}
+  m_Name: FleeTargetState
+  m_EditorClassIdentifier: 
+  m_onEnterActions: []
+  m_actions:
+  - {fileID: 11400000, guid: 57c637ff7d4feaa4387d30c44f2b9783, type: 2}
+  m_onExitActions: []
+  m_transitions:
+  - m_decision: {fileID: 11400000, guid: 26dd0941ca95a8b46974248526983ffa, type: 2}
+    m_useTrueState: 0
+    m_trueState: {fileID: 0}
+    m_useFalseState: 1
+    m_falseState: {fileID: 11400000, guid: 7ea09af66fdfcaf419744fc6944ff2cc, type: 2}
+    m_minimumDelayRetest: 0.25
+    m_maximumDelayRetest: 0.3
+  m_sceneGizmoColor: {r: 0.9811321, g: 0.63403344, b: 0.63403344, a: 1}
